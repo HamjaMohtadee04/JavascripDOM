@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour of DOM</title>
+    <link rel="stylesheet" href="Style/styles.css">
+    <style>
+        .fruits-container li{
+            color: rgb(196, 174, 32);
+        }
+        #fruits{
+            color: #af2e2e;
+        }
+        .place{
+            color: rgb(191, 76, 168);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>welcome to my dom</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, ipsa! Aliquid ullam, dignissimos consequatur voluptate, necessitatibus temporibus soluta est deleniti odit error ex! Debitis optio necessitatibus sunt cumque corrupti rem.</p>
+       
+        <!-- <section>
+            <h1>wrap</h1>
+            <h1>is</h1>
+            <h1>lcome to my dom</h1>
+            <h1>gerds</h1>
+            <h1>we</h1>
+            <h1>well well</h1>
+            <h1>tellme more</h1>
+            <h1>nice queen</h1>
+            <h1>man</h1>
+            <h1>welcome</h1>
+            <h1>addd</h1>
+        </section> -->
+
+    </header>
+    <main id="main-container">
+
+        <section>
+            <h1>AWESOME DOM</h1>
+        <ul>
+            <li>hi there</li>
+            <li>whats new</li>
+            <li>welcome</li>
+        </ul>
+        </section>
+
+        <section class="fruits-container">
+            <h1 id="fruits" class="some-class random class-blue">fruits i like</h1>
+           <ul>
+            <li>banana</li>
+            <li>apple</li>
+            <li>mango</li>
+           </ul>
+        </section>
+
+        <section id="places-container" class="large-text text-center" >
+            <h1>places </h1>
+            <ul id="places-list">
+             <li class="place">comilla</li>
+             <li class="place">ctg </li>
+             <li class="place">mymensingh</li>
+            </ul>
+        </section>
+
+    </main>
+    <script src="JS/dom.js"></script>
+    <script src="JS/append.js"></script>
+    <script src="JS/sylesIn.js"></script>
+    <script>
+        // const student ={
+        //     id : 1,
+        //     name :"titi",
+        //     study: function(time){
+        //         console.log(time,"code krtese");
+        //     }
+
+        // };
+        // console.log("adding the html file");
+    //     const liCollection =document.getElementsByTagName('li');
+    //    for(const li of liCollection){
+    //     console.log(li.innerText);
+    //    }
+    // const h1collection = document.getElementsByTagName("h1");
+    // for(const h1 of h1collection){
+    //     console.log(h1.innerText);
+    // }
+    // const fruit =document.getElementById("fruits");
+    // fruit.innerText ="fruits i like chaged by JS";
+
+    // const places = document.getElementsByClassName("place");
+    // for(const place of places){
+    //     console.log(place.innerText);
+    // }
+
+    //query selector
+    // const someLi = document.querySelectorAll(".fruits-container li");
+    // for (const Li of someLi){
+    //     console.log(Li.innerText);
+    // }
+    </script>
+</body>
+</html>
